@@ -1,0 +1,4 @@
+marathon/__pycache__/
+marathon_api/__pycache__/
+marathon_api/migrations/__pycache__/
+credentials.txt
