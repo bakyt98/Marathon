@@ -13,10 +13,11 @@ class Event(models.Model):
 
 class Photo(models.Model):
     original = models.ImageField(upload_to='images/')
-    #urlOriginal = models.CharField(max_length=1000, blank=True, null=True)
+    # urlOriginal = models.CharField(max_length=1000, blank=True, null=True)
     urlCompressed = models.CharField(max_length=1000, blank=True, null=True)
     watermark = models.CharField(max_length=100, blank=True, default='')
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
+    tags = models.ManyToManyField("self")
     created_by = models.ForeignKey(User, on_delete=models.CASCADE, blank=True, null=True)
 
     def __str__(self):
@@ -26,3 +27,6 @@ class Photo(models.Model):
         super(Photo, self).save(*args, **kwargs)
         filePath = self.original.url
 
+    @property
+    def taglist(self):
+        return list(self.tags.all())
