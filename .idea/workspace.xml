@@ -41,7 +41,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/marathon_api/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="235">
               <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
@@ -200,7 +200,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="790" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8051948" visible="true" weight="0.119802676" />
       <window_info id="Structure" order="1" sideWeight="0.19480519" side_tool="true" visible="true" weight="0.119802676" />
@@ -316,7 +315,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/marathon_api/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="235">
           <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
